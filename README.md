@@ -1,0 +1,2 @@
+# lucky-lotto
+ Beginner JS 
