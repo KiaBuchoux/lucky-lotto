@@ -1,8 +1,8 @@
 function generateWinningNum(){
-    const winningNums = []
-    for(let i=0; i<6; i++){
-        winningNums.push(Math.floor(Math.random()*100)+1)
-    }
+    const winningNums = new Array(6).fill().map(num => num = Math.floor(Math.random()*100)+1)
+    // for(let i=0; i<6; i++){
+    //     winningNums.push(Math.floor(Math.random()*100)+1)
+    // }
     return winningNums
 }
 
